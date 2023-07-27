@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Inicio from "./pages/Inicial/inicial"
 import Cadastro from './pages/doador/cadastrodoador'
+import CadColaborador from './pages/colaborador/cad-colaborador'
 
 export default function Router(){
 
@@ -8,7 +9,8 @@ export default function Router(){
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Cadastro/>} />
-        <Route path='/doador' element={<Inicio/>}/>
+        <Route path='/inicio' element={<Inicio/>}/>
+        <Route path='/colaborador' element={<CadColaborador/>}/>
       </Routes>
     </BrowserRouter>
     )

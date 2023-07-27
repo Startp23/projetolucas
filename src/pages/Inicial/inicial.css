@@ -1,77 +1,100 @@
-#parede{
-    position: fixed;
-    height: 7.4vh;
-    width: 100vw;
+/* Estilos comuns */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .menu {
+    position: fixed; /* Torna a div "menu" fixa no topo da página */
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(224, 27, 27);
-}
-
-.carrossel{
-    display: flex;
-    margin-top: 4.5%;
-    width: 92vw;
-    height: 40vh;
-    border: 2px solid blue;
-    margin-left: 50px;
-}
-
-#informacao{
-    width: 92vw;
-    margin: 0;
-    margin-left: 50px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    background-color: white;
-    border: 1px solid red;
-}
-
-.information{
-    border: 1px solid green;
-    
-}
-
-.barras{
+    padding: 10px;
+    z-index: 999; /* Define uma posição acima de outros elementos */
+  }
+  
+  .barras {
     background: none;
-    position: fixed;
     border: none;
-    align-items: center;
-}
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .menu img {
+    width: 100px;
+    height: auto;
+  }
 
-.icones{
-    display: flex;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-}
-
-#esquerdo{
-    margin-left: 50px;
-    height: 3vh;
-    width: 7vw;
-}
-
-#centro{
-    width: 30vw;
-    margin-left: 0;
-    min-width: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#direito{
-    margin-right: 65px;
-    position:static;
-}
-
-.titulos{
+  #icon{
+    width: 30px;
+  }
+  
+  .carrossel {
+    margin-top: 70px; /* Espaçamento abaixo do menu para que os elementos abaixo não fiquem escondidos */
+  }
+  
+  .carousel-inner {
+    width: 100%;
+    height: 40vh;
+  }
+  
+  #imgcar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .information {
+    margin-top: 30px;
+  }
+  
+  .titulos {
     color: blue;
-
-}
-
-
+  }
+  
+  .texto {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para telas maiores */
+  @media screen and (min-width: 768px) {
+    .menu {
+      padding: 20px;
+    }
+  
+    .menu img {
+      width: 150px;
+    }
+  
+    .carrossel {
+      margin-top: 100px; /* Espaçamento maior abaixo do menu para telas maiores */
+    }
+  
+    .carousel-inner {
+      height: 60vh;
+    }
+  
+    .information {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .texto {
+      flex: 1;
+      margin: 10px;
+    }
+  }
+  
