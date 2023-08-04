@@ -1,15 +1,18 @@
 body {
-    width: 100vw;
+    width: auto;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom, white, rgb(219, 55, 55));
+    
 }
 
 #root {
+    margin: 0;
+    padding: 0;
     width: 100vw;
     height: 100%;
 }
+
 
 h1,
 h2,

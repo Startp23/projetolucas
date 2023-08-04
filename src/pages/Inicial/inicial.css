@@ -1,100 +1,266 @@
 /* Estilos comuns */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
+
+/*estilo do menu*/
+.menu {
+  align-items: center;
+  background-color: #BC1818;
+}
+
+.menu_item {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+#start {
+  margin-left: 50px;
+}
+
+
+.item-click {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+  font-size: 15px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+button {
+  border: 1px solid white;
+  border-radius: 8px;
+  background: none;
+  margin-left: 20px;
+  text-align: center;
+}
+
+
+
+
+/* Estilo do botão de login e cadastro ao passar o mouse por cima*/
+button:hover {
+
+  transform: scale(1.08);
+  ;
+}
+
+#login-menu,
+#cadastro-menu {
+  font-size: 20px;
+}
+
+
+/*estilo do main*/
+
+
+.informacao {
+  margin-top: 70px;
+}
+
+.information {
+  margin-top: 30px;
+}
+
+
+
+.texto {
+  background-color: #f7f3f3;
+}
+
+/* Estilos para telas maiores */
+@media screen and (min-width: 768px) {
   .menu {
-    position: fixed; /* Torna a div "menu" fixa no topo da página */
+    z-index: 1;
+    width: 100vw;
+    position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(224, 27, 27);
-    padding: 10px;
-    z-index: 999; /* Define uma posição acima de outros elementos */
-  }
-  
-  .barras {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-  }
-  
-  .menu img {
-    width: 100px;
-    height: auto;
   }
 
-  #icon{
-    width: 30px;
+  .menu img {
+    width: 200px;
+    height: 50px;
+
   }
-  
-  .carrossel {
-    margin-top: 70px; /* Espaçamento abaixo do menu para que os elementos abaixo não fiquem escondidos */
+
+  .topo-site {
+
+    display: flex;
+    margin-top: 90px;
+    width: 100vw;
+    height: 580px;
+    justify-content: space-between;
+
   }
-  
-  .carousel-inner {
-    width: 100%;
-    height: 40vh;
+
+  .div-topo {
+    margin-left: 50px;
+    display: inline-block;
   }
-  
-  #imgcar {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+
+  #imgsangue {
+    margin-left: 150px;
+    width: 700px;
   }
-  
-  .information {
-    margin-top: 30px;
+
+  .text-doe-sangue {
+
+    width: 40vw;
+    position: relative;
+    right: 1px;
+    color: #D50000;
+    margin-top: 70px;
   }
-  
+
+  .text-doe-sangue p {
+    color: black;
+    font-size: 20px;
+    margin-top: 35px;
+  }
+
+  .text-doe-sangue button {
+    font-size: large;
+    margin-top: 20px;
+
+
+  }
+
+hr{
+  color: #BC1818;
+}
+
+  #doe-agora {
+    background-color: #146DC6;
+    color: white;
+  }
+
+  #no-doador {
+    border: 1px solid #BC1818;
+    border-radius: 8px;
+    color: black;
+  }
+
   .titulos {
-    color: blue;
+    font-size: 40px;
+    color: #BC1818;
   }
-  
-  .texto {
+
+  .textos {
+    border-radius: 10px;
+    background: rgb(245, 243, 243); 
+    width: 80vw;
+    margin-top: 30px;
+
+  }
+
+  .textos button{
     background-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
+    border: 1px solid #BC1818;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    font-size: 20px;
+  
+  }
+
+  .textos button:hover{
+    background-color: #BC1818;
+  }
+
+  .textos p {
+    font-size: 20px;
+  }
+
+  .seja-parceiro{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .textos h3{
+    color: #146DC6;
+    font-size: 30px;
+  }
+
+.beneficios{
+  display: flex;
+  justify-content: space-between;
+}  
+
+  .informacao {
+    margin-left: 200px;
+  }
+
+  .information {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .texto {
+    margin-top: 10px;
+    padding: 0;
+    margin: 10px;
+  }
+
+  /*rodapé*/
+  footer {
+    display: flex;
+    background-color: #BC1818;
+    position: relative;
+    width: 100vw;
+  
+  }
+
+  .rodape {
+    font-family: Arial;
+    margin-left: 150px;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+
+  #footer_content {
+    background-color: #BC1818;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem 5.5rem;
+    
   }
   
-  /* Estilos para telas maiores */
-  @media screen and (min-width: 768px) {
-    .menu {
-      padding: 20px;
-    }
-  
-    .menu img {
-      width: 150px;
-    }
-  
-    .carrossel {
-      margin-top: 100px; /* Espaçamento maior abaixo do menu para telas maiores */
-    }
-  
-    .carousel-inner {
-      height: 60vh;
-    }
-  
-    .information {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  
-    .texto {
-      flex: 1;
-      margin: 10px;
-    }
+  #footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
   }
   
+  #footer_social_media .footer-link {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #ffffff;
+    border-radius: 50%;
+  }
+  
+  #footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #BC1818;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  #footer_content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #BC1818;
+  }
+} 
