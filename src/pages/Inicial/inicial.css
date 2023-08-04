@@ -1,266 +1,259 @@
-/* Estilos comuns */
+/*estilos comuns*/
 
-/*estilo do menu*/
-.menu {
+.navbar {
+  display: flex;
   align-items: center;
   background-color: #BC1818;
 }
 
-.menu_item {
-  display: inline-block;
-  margin-right: 30px;
-}
-
-#start {
-  margin-left: 50px;
-}
-
-
-.item-click {
-  margin-top: 20px;
-  margin-left: 20px;
-  color: white;
-  font-size: 15px;
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 a:hover {
-  color: white;
   text-decoration: underline;
 }
 
-button {
-  border: 1px solid white;
-  border-radius: 8px;
-  background: none;
-  margin-left: 20px;
-  text-align: center;
-}
-
-
-
-
-/* Estilo do botão de login e cadastro ao passar o mouse por cima*/
 button:hover {
-
   transform: scale(1.08);
-  ;
 }
 
-#login-menu,
-#cadastro-menu {
-  font-size: 20px;
+.text-doe-sangue button {
+  border: 1px solid #BC1818;
+  background: none;
+  border-radius: 8px;
+
 }
 
-
-/*estilo do main*/
-
-
-.informacao {
-  margin-top: 70px;
+.textos {
+  background-color: #D9D9D9;
+  border-radius: 8px;
 }
 
-.information {
-  margin-top: 30px;
+.text-doe-sangue h1 {
+  color: #D50000;
 }
 
-
-
-.texto {
-  background-color: #f7f3f3;
+.seja-parceiro {
+  display: flex;
 }
 
-/* Estilos para telas maiores */
-@media screen and (min-width: 768px) {
-  .menu {
-    z-index: 1;
-    width: 100vw;
-    position: fixed;
-    top: 0;
+.textos button {
+  border: 1px solid #BC1818;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.textos button:hover {
+  background-color: #BC1818;
+}
+
+.textos h3 {
+  color: #146DC6;
+}
+
+.textos h2 {
+  color: #D50000;
+}
+
+.beneficios {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  background-color: #BC1818;
+}
+
+.footer-content {
+  display: inline-flex;
+
+}
+
+footer li {
+  list-style-type: none;
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 768px) {
+
+  /* Barra suspensa */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BC1818;
+    padding: 10px;
   }
 
-  .menu img {
+  .navbar-bran img {
     width: 200px;
     height: 50px;
+  }
 
+  .menu_item ul {
+
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+  }
+
+  .menu_item a {
+    color: #ffffff;
+  }
+
+  .item-click,
+  .item-click:visited {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .menu_item button {
+    cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-left: 20px;
   }
 
   .topo-site {
-
     display: flex;
-    margin-top: 90px;
-    width: 100vw;
-    height: 580px;
-    justify-content: space-between;
-
+    justify-content: space-around;
   }
 
-  .div-topo {
-    margin-left: 50px;
-    display: inline-block;
-  }
-
-
-  #imgsangue {
-    margin-left: 150px;
-    width: 700px;
-  }
 
   .text-doe-sangue {
-
-    width: 40vw;
-    position: relative;
-    right: 1px;
-    color: #D50000;
-    margin-top: 70px;
+    margin-top: 100px;
   }
 
-  .text-doe-sangue p {
-    color: black;
-    font-size: 20px;
-    margin-top: 35px;
+  .btn-doe {
+    display: flex;
+    position: relative;
+    right: 25px;
   }
 
   .text-doe-sangue button {
-    font-size: large;
-    margin-top: 20px;
-
-
-  }
-
-hr{
-  color: #BC1818;
-}
-
-  #doe-agora {
-    background-color: #146DC6;
-    color: white;
-  }
-
-  #no-doador {
-    border: 1px solid #BC1818;
-    border-radius: 8px;
-    color: black;
-  }
-
-  .titulos {
-    font-size: 40px;
-    color: #BC1818;
-  }
-
-  .textos {
-    border-radius: 10px;
-    background: rgb(245, 243, 243); 
-    width: 80vw;
-    margin-top: 30px;
-
-  }
-
-  .textos button{
-    background-color: white;
-    border: 1px solid #BC1818;
-    margin-right: 300px;
-    margin-bottom: 50px;
     font-size: 20px;
-  
+    margin-left: 20px;
   }
 
-  .textos button:hover{
-    background-color: #BC1818;
+  .seja-parceiro button {
+    margin-left: 100px;
   }
-
-  .textos p {
-    font-size: 20px;
-  }
-
-  .seja-parceiro{
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .textos h3{
-    color: #146DC6;
-    font-size: 30px;
-  }
-
-.beneficios{
-  display: flex;
-  justify-content: space-between;
-}  
 
   .informacao {
+    margin-top: 70px;
+    width: 70vw;
     margin-left: 200px;
   }
 
-  .information {
-    display: flex;
-    flex-wrap: wrap;
+  .textos {
+    margin-top: 30px;
   }
 
-  .texto {
-    margin-top: 10px;
-    padding: 0;
-    margin: 10px;
+  .textos h2,
+  h3,
+  p,
+  img {
+    margin-left: 100px;
+    margin-bottom: 20px;
   }
 
-  /*rodapé*/
-  footer {
-    display: flex;
-    background-color: #BC1818;
-    position: relative;
+  .hr {
     width: 100vw;
-  
+    border: 0.5px solid #D50000;
+    margin-top: 10px;
   }
 
-  .rodape {
-    font-family: Arial;
-    margin-left: 150px;
-    padding: 0;
-    box-sizing: border-box;
-    letter-spacing: 1px;
-    color: #ffffff;
+  footer {
+    justify-content: flex-start;
+
   }
 
-  #footer_content {
-    background-color: #BC1818;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 3rem 5.5rem;
-    
+  .footer-content{
+    margin-left: 100px;
+    gap: 50%;
   }
-  
-  #footer_social_media {
+
+  .rodape{
     display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
-  }
-  
-  #footer_social_media .footer-link {
-    height: 2.5rem;
-    width: 2.5rem;
-    color: #ffffff;
-    border-radius: 50%;
-  }
-  
-  #footer_copyright {
-    display: flex;
-    justify-content: center;
-    background-color: #BC1818;
-    font-size: 0.9rem;
-    padding: 1.5rem;
-    font-weight: 100;
   }
 
 }
 
-@media screen and (max-width: 768px){
-  #footer_content{
+/* Estilos para dispositivos móveis */
+@media (max-width: 767px) {
+
+  /* Barra suspensa */
+  .navbar {
     display: flex;
-    flex-wrap: wrap;
-    background-color: #BC1818;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
   }
-} 
+
+  .navbar-bran img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .menu_item ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu_item button {
+    cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-left: 20px;
+  }
+
+  .item-click,
+  .item-click:visited {
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  #imgsangue {
+    width: 300px;
+  }
+
+  .topo-site {
+    text-align: center;
+  }
+
+  .btn-doe {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+  }
+
+  .informacao {
+
+    width: 90vw;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .textos {
+    margin-top: 20px;
+  }
+
+  .beneficios img {
+    width: 400px;
+    height: 300px;
+    margin-top: 150px;
+  }
+
+  .footer-content {
+    gap: 20%;
+  }
+
+}

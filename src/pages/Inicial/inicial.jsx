@@ -41,12 +41,12 @@ function Iniciodoador() {
             <p>Doe sangue hoje e faça parte<br /> dessa
               corrente de solidariedade que faz<br /> a
               diferença no mundo.</p>
-
+              <div className='btn-doe'>
             <button id='doe-agora'>Doe agora</button>
-            <button id='no-doador'>Ainda não sou doador</button>
+            <button id='no-doador'>Ainda não sou doador</button></div>
           </div>
         </div>
-        <hr />
+        <div className='hr'></div>
         {/*Imagem e título principal*/}
 
         <div className="informacao">
@@ -82,9 +82,7 @@ function Iniciodoador() {
               Aguardar 48h para doar caso tenha tomado a vacina da gripe, desde que não esteja com nenhum sintoma;<br /><br />
               Candidatos que viajaram para o exterior devem entrar em contato com o Banco de Sangue para entender o período que não pode doar (varia de país a país).</p>
           </div>
-          <h1>vvvv</h1>
           <div className='textos'>
-            <h1 className=''>aaaa</h1>
             <h3>Quais os benefícios para doar sangue?</h3>
             <div className='beneficios'>
               <p>Salvar vidas: A doação de sangue é fundamental para suprir a demanda de transfusões e ajudar pacientes em situações de emergência, cirurgias e tratamentos médicos.<br /><br />
@@ -106,10 +104,12 @@ function Iniciodoador() {
         </div>
       </main>
       <footer>
-  <div id="footer_content">
-      <ul className="rodape">
+  <div className="footer-content">
+      <div className="rodape">
+        <ul>
+          <li>
           <h3>Conteúdos</h3>
-        <li>
+        
           <a href="#" className="item-click">Notícias</a>
         </li>
         <li>
@@ -121,8 +121,9 @@ function Iniciodoador() {
         <li>
           <a href="#" className="item-click">Benefícios de doar</a>
         </li>
-      </ul>
-      <ul className="rodape">
+        </ul>
+      </div>
+      <div className="rodape">
         <li>
           <h3>Contatos</h3>
         </li>
@@ -132,8 +133,8 @@ function Iniciodoador() {
         <li>
           <a href="#" className="item-click">+55 (81) 99970-0984</a>
         </li>
-      </ul>
-      <ul className="rodape">
+      </div>
+      <div className="rodape">
         <li>
           <h3>Contas</h3>
         </li>
@@ -146,15 +147,7 @@ function Iniciodoador() {
         <li>
           <a href="#" className="item-click">Cadastro</a>
         </li>
-      </ul>
-      <ul>
-        <li><h1>aaaa</h1></li>
-        <li><h1>aaaa</h1></li>
-      </ul>
-      <ul>
-        <li><h1>aaaa</h1></li>
-        <li><h1>aaaa</h1></li>
-      </ul>
+      </div>
       </div>
       </footer>
       </>

@@ -8,8 +8,8 @@ export default function Router(){
   return(
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Cadastro/>} />
-        <Route path='/inicio' element={<Inicio/>}/>
+        <Route path='/' element={<Inicio/>} />
+        <Route path='/cadastro' element={<Cadastro/>}/>
         <Route path='/colaborador' element={<CadColaborador/>}/>
       </Routes>
     </BrowserRouter>
