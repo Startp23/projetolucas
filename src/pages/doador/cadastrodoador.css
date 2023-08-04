@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .fundo {
   padding: 0;
   margin: 0;
@@ -92,4 +93,105 @@ input[type="submit"]:hover {
     border-radius: 5%;
     border: none;
     margin-left: 30%;
+=======
+.fundo {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/fundo-embaçado.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+body {
+    height: 100vh;
+    background-image: url('img/fundo-projeto.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#geral {
+    width: 600px;
+    height: 82%;
+    border: 2px solid red;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.text-one {
+    text-align: left;
+    color: rgb(224, 64, 64);
+}
+
+.text-two {
+    text-align: left;
+    color: rgb(35, 35, 148);
+    font-size: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group.col-md-6 {
+  width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select {
+    width: 80%;
+    padding: 10px;
+    margin-left: 5%;
+    border: 1px solid rgb(224, 64, 64);
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-control::placeholder {
+    color: rgb(35, 35, 148)
+}
+
+select {
+    height: 40px;
+}
+
+input[type="submit"] {
+    background-color: #ff0000;
+    /* Vermelho */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #cc0000;
+    /* Tom mais escuro de vermelho ao passar o mouse */
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgb(224, 64, 64);
+    width: 200px;
+    height: 50px;
+    border-radius: 5%;
+    border: none;
+    margin-left: 30%;
+>>>>>>> b0f9aadcb3e45baf8b2c84c8fa58b2f6db5bfcf2
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Estilos comuns */
 
 /*estilo do menu*/
@@ -264,3 +265,82 @@ hr{
     background-color: #BC1818;
   }
 } 
+=======
+#parede{
+    position: fixed;
+    height: 7.4vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(224, 27, 27);
+}
+
+.carrossel{
+    display: flex;
+    margin-top: 4.5%;
+    width: 92vw;
+    height: 40vh;
+    border: 2px solid blue;
+    margin-left: 50px;
+}
+
+#informacao{
+    width: 92vw;
+    margin: 0;
+    margin-left: 50px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: white;
+    border: 1px solid red;
+}
+
+.information{
+    border: 1px solid green;
+    
+}
+
+.barras{
+    background: none;
+    position: fixed;
+    border: none;
+    align-items: center;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+#esquerdo{
+    margin-left: 50px;
+    height: 3vh;
+    width: 7vw;
+}
+
+#centro{
+    width: 30vw;
+    margin-left: 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#direito{
+    margin-right: 65px;
+    position:static;
+}
+
+.titulos{
+    color: blue;
+
+}
+
+
+>>>>>>> b0f9aadcb3e45baf8b2c84c8fa58b2f6db5bfcf2
