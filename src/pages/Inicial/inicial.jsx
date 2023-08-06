@@ -46,7 +46,7 @@ function Iniciodoador() {
             <button id='no-doador'>Ainda não sou doador</button></div>
           </div>
         </div>
-        <div className='hr'></div>
+        <hr />
         {/*Imagem e título principal*/}
 
         <div className="informacao">
@@ -82,7 +82,7 @@ function Iniciodoador() {
               Aguardar 48h para doar caso tenha tomado a vacina da gripe, desde que não esteja com nenhum sintoma;<br /><br />
               Candidatos que viajaram para o exterior devem entrar em contato com o Banco de Sangue para entender o período que não pode doar (varia de país a país).</p>
           </div>
-          <div className='textos'>
+          <div id='benefits' className='textos'>
             <h3>Quais os benefícios para doar sangue?</h3>
             <div className='beneficios'>
               <p>Salvar vidas: A doação de sangue é fundamental para suprir a demanda de transfusões e ajudar pacientes em situações de emergência, cirurgias e tratamentos médicos.<br /><br />
@@ -104,51 +104,33 @@ function Iniciodoador() {
         </div>
       </main>
       <footer>
-  <div className="footer-content">
-      <div className="rodape">
-        <ul>
-          <li>
-          <h3>Conteúdos</h3>
-        
-          <a href="#" className="item-click">Notícias</a>
-        </li>
-        <li>
-          <a href="#" className="item-click">Dúvidas</a>
-        </li>
-        <li>
-          <a href="#" className="item-click">Sobre nós</a>
-        </li>
-        <li>
-          <a href="#" className="item-click">Benefícios de doar</a>
-        </li>
-        </ul>
-      </div>
-      <div className="rodape">
-        <li>
-          <h3>Contatos</h3>
-        </li>
-        <li>
-          <a href="#" className="item-click">Instagram</a>
-        </li>
-        <li>
-          <a href="#" className="item-click">+55 (81) 99970-0984</a>
-        </li>
-      </div>
-      <div className="rodape">
-        <li>
-          <h3>Contas</h3>
-        </li>
-        <li>
-          <a href="#" className="item-click">Perfil</a>
-        </li>
-        <li>
-          <a href="#" className="item-click">Login</a>
-        </li>
-        <li>
-          <a href="#" className="item-click">Cadastro</a>
-        </li>
-      </div>
-      </div>
+        <div className='footer-content'>
+          <div className='rodape'>
+            <ul>
+              <h4>Conteúdo</h4>
+              <a href="">Notícias</a>
+              <a href="">Dúvidas</a>
+              <a href="#benefits">Benefícios de Doar</a>
+            </ul>
+          </div>
+          <div className='rodape'>
+            <ul>
+              <h4>Contatos</h4>
+              <a href="">Instagram</a>
+            </ul>
+
+          </div>
+          <div className='rodape'>
+            <ul>
+              <h4>Conta</h4>
+              <a href="">Perfil</a>
+              <a href="">Login</a>
+              <a href="">Cadastro</a>
+            </ul>
+          </div>
+
+        </div>
+
       </footer>
       </>
   )

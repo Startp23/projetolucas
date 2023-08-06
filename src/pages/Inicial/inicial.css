@@ -7,6 +7,7 @@
 }
 
 a:hover {
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -58,20 +59,40 @@ button:hover {
   display: flex;
 }
 
-footer {
-  display: flex;
-  width: 100vw;
+.beneficios img{
+  max-height: 400px;
+}
+
+footer{
   background-color: #BC1818;
 }
 
-.footer-content {
+.footer-content{
+  display: flex;
+  justify-content: center;
+}
+
+.rodape{
   display: inline-flex;
+}
+
+footer ul{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h4{
+  color: #ffffff;
+}
+
+footer a{
+  color: #ffffff;
+  text-decoration: none;
 
 }
 
-footer li {
-  list-style-type: none;
-}
+
 
 /* Estilos para telas grandes */
 @media (min-width: 768px) {
@@ -156,25 +177,14 @@ footer li {
   h3,
   p,
   img {
-    margin-left: 100px;
+    
     margin-bottom: 20px;
   }
 
-  .hr {
-    width: 100vw;
-    border: 0.5px solid #D50000;
-    margin-top: 10px;
+  hr {
+    color: #BC1818;
   }
 
-  footer {
-    justify-content: flex-start;
-
-  }
-
-  .footer-content{
-    margin-left: 100px;
-    gap: 50%;
-  }
 
 }
 
@@ -193,6 +203,11 @@ footer li {
     width: 150px;
     height: auto;
     margin-bottom: 10px;
+  }
+
+  #end{
+    display: flex;
+    margin-left: 25px;
   }
 
   .menu_item ul {
@@ -239,6 +254,11 @@ footer li {
     margin-left: 15px;
   }
 
+  hr {
+    color: #BC1818;
+  }
+
+
   .textos {
     margin-top: 20px;
   }
@@ -253,6 +273,10 @@ footer li {
     
   }
 
-  
+  footer a{
+    color: #ffffff;
+    text-decoration: none;
+
+  }
 
 }
