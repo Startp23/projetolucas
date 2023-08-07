@@ -7,89 +7,88 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 
 
 #geral {
-    width: 600px;
-    height: 82%;
+  width: 600px;
+  height: 82%;
 }
 
 
 .text-one {
-    text-align: left;
-    color: rgb(224, 64, 64);
+  text-align: left;
+  color: rgb(224, 64, 64);
 }
 
 .text-two {
-    text-align: left;
-    color: rgb(35, 35, 148);
-    font-size: 20px;
+  text-align: left;
+  color: rgb(35, 35, 148);
+  font-size: 20px;
 }
 
-form{
-    margin-top: 50px;
-    background-color: white;
+.fundo form {
+  margin-top: 50px;
+  background-color: white;
 }
 
 .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .form-group.col-md-6 {
   width: 100%;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+.fundo label {
+  display: block;
+  margin-bottom: 5px;
 
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="tel"],
-select {
-    width: 80%;
-    padding: 10px;
-    margin-left: 5%;
-    border: none;
-    outline: none;
-    background: none;
-
+.fundo input[type="text"],
+.fundo input[type="email"],
+.fundo input[type="password"],
+.fundo input[type="tel"],
+.fundo select {
+  width: 80%;
+  padding: 10px;
+  margin-left: 5%;
+  border: none;
+  outline: none;
+  background: none;
 }
 
 .form-control::placeholder {
-    color: rgb(35, 35, 148)
+  color: rgb(35, 35, 148)
 }
 
-select {
-    height: 40px;
+.fundo select {
+  height: 40px;
 }
 
-input[type="submit"] {
-    background-color: #ff0000;
-    /* Vermelho */
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
+.fundo input[type="submit"] {
+  background-color: #ff0000;
+  /* Vermelho */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-input[type="submit"]:hover {
-    background-color: #cc0000;
-    /* Tom mais escuro de vermelho ao passar o mouse */
+.fundo input[type="submit"]:hover {
+  background-color: #cc0000;
+  /* Tom mais escuro de vermelho ao passar o mouse */
 }
 
 .btn-primary {
-    color: white;
-    background-color: rgb(224, 64, 64);
-    width: 200px;
-    height: 50px;
-    border-radius: 5%;
-    border: none;
-    margin-left: 30%;
+  color: white;
+  background-color: rgb(224, 64, 64);
+  width: 200px;
+  height: 50px;
+  border-radius: 5%;
+  border: none;
+  margin-left: 30%;
 }

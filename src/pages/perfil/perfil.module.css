@@ -1,0 +1,173 @@
+.popUp button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.popUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #88aacc;
+}
+
+.telaPopUp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.popUp label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.popUp button {
+  margin-top: 10px;
+}
+
+.popUp h2 {
+  color: #146DC6;
+  text-align: center;
+}
+
+.ncompleto {
+  color: #146DC6;
+}
+
+.nomeCompleto {
+  border-radius: 4px;
+  height: 20px;
+  width: 100%;
+  margin: 0 !important;
+}
+
+.ncompleto input {
+  border: 1px solid #666565;
+}
+
+.fileira2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cpf {
+  color: #146DC6;
+}
+
+.cpf {
+  width: 215px;
+  border-radius: 4px;
+  height: 20px;
+}
+
+.cpf input {
+  border: 1px solid #666565;
+}
+
+.dnascimento {
+  color: #146DC6;
+  margin-right: 18%;
+}
+
+.dataNascimento {
+  width: 100px;
+  border-radius: 4px;
+  height: 20px;
+}
+
+.dnascimento input {
+  border: 1px solid #666565;
+}
+
+.email1 {
+  color: #146DC6;
+}
+
+.email {
+  width: 460px;
+  border-radius: 4px;
+  height: 20px;
+}
+
+.email1 input {
+  border: 1px solid #666565;
+}
+
+.fileira4 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.tsanguineo {
+  color: #146DC6;
+}
+
+.tiposanguineo {
+  width: 215px;
+  border-radius: 4px;
+  height: 20px;
+}
+
+.tsanguineo input {
+  border: 1px solid #666565;
+}
+
+.celular {
+  color: #146DC6;
+}
+
+.celular {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.celular input {
+  border: 1px solid #666565;
+}
+
+.endereço1 {
+  color: #146DC6;
+}
+
+.endereco {
+  width: 460px;
+  border-radius: 4px;
+  height: 20px;
+  color: black;
+}
+
+.botoes {
+  margin-top: 20px;
+}
+
+.voltar {
+  margin-left: 25px;
+  background-color: white;
+  border-color: #BC1818;
+  border-radius: 4px;
+}
+
+.salvar {
+  margin-left: 255px;
+  background-color: #146DC6;
+  border-color: #146DC6;
+  border-radius: 4px;
+  color: white;
+}
